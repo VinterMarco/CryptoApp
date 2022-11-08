@@ -1,0 +1,256 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*========== landing page ============*/
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #f2f2f2;
+}
+.logo{
+  margin-left: 10px;
+  font-size: 35px;
+  font-weight: 500;
+  color: rgb(0,82,254);
+}
+
+.logo h5{
+  margin: 0;
+}
+
+.links ul li{
+  display: inline;
+}
+
+.links ul li a {
+  font-size: 15px;
+  text-decoration:  none;
+  color: black;
+  font-weight: 500;
+  margin-right: 20px;
+}
+
+.links ul li a:hover {
+  color: rgb(0,82,254);
+}
+
+
+
+/*===============login=============*/
+
+
+.landPageWrapper {
+  display: flex;
+
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.info1{
+  width: 300px;
+  font-size: 56px;
+}
+
+.info2{
+  margin-left: 150px;
+  text-align: center;
+  width: 550px;
+  font-size: 24px;
+}
+
+
+
+/*=============== login form=====================*/
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.forms{
+  margin: 5px;
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.forms input{
+  font-size: 25px;
+}
+
+.forms input {
+  border: 1.5px solid #dedfe2;
+
+  border-radius: 4px;
+}
+
+.btn {
+  position: relative;
+  left: 350px;
+  bottom: 75px;
+  width: 150px;
+  height: 60px;
+  border: none;
+  color: whitesmoke;
+  background-color: #0052fd;
+  border-radius: 8px;
+  font-size: 30px;
+}
+
+img{
+  width: 400px;
+  transform: rotate(-15deg);
+  margin-left: 300px;
+}
+
+
+
+/*================================================*/
+/*.d-flex{*/
+/*  display: flex;*/
+/*  border-bottom: 1px solid #f2f2f2;*/
+/*  justify-content: space-around;*/
+/*  align-items: center;*/
+/*}*/
+
+/*.d-flex > h4{*/
+/*  width: 100px;*/
+/*  text-align: left;*/
+/*}*/
+
+
+/*.d-flex > h5{*/
+/*  width: 100px;*/
+/*  text-align: left;*/
+/*}*/
+
+/*.d-flex:hover{*/
+/*  box-shadow: 1px 2px 5px blue;*/
+/*  border-bottom: none;*/
+/*  background-color: #0052fd;*/
+/*  font-size: 20px;*/
+/*  color: whitesmoke;*/
+/*}*/
+
+/*========= search top bottom second page==========*/
+
+
+.input{
+  transform: translate(calc(50% - 300px));
+  margin-bottom: 30px;
+
+}
+.searchCrypto {
+  display: inline-block;
+  width: 600px;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid black;
+  text-align: center;
+  color: black;
+  margin: 10px;
+}
+
+.searchCrypto::placeholder{
+  color: black;
+  font-size: 15px;
+}
+
+.logoutbtn{
+  font-family: sans-serif;
+  background-color: #0052fd;
+  color: white;
+  margin: 10px;
+  right: 410px;
+  top: 0;
+  position: absolute;
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  width: 100px;
+  height: 35px;
+}
+
+.logoutbtn:hover{
+  background-color: crimson;
+}
+
+/*======================================*/
+
+
+.container {
+  transform: translate(calc(50% - 35%));
+
+}
+
+
+.allCoins{
+  align-items: center;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+  flex-direction: row;
+  color: black;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+
+.coin-arrange{
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+}
+
+.a {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: -200px;
+}
+.b{
+  position: relative;
+  left: -200px;
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.allCoins > h5{
+  letter-spacing: 2px;
+  width: 270px;
+  text-align: left;
+}
+
+.allCoins:hover{
+  transition: 0.2s linear 0.2s;
+  background-color: rgb(0,82,253);
+  color: white;
+  transform: scale(1.02);
+  font-size: 19px;
+  cursor: pointer;
+}
+
+
+
